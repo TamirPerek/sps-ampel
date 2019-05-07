@@ -17,6 +17,4 @@ class Street {
         rect(this.width / 2 + this.streetWidth, this.height / 2 - this.streetWidth, this.width / 2 - this.streetWidth, 20);
         rect(this.width / 2 + this.streetWidth, this.height / 2 + this.streetWidth, this.width / 2 - this.streetWidth, 20);
     }
-
-
 }

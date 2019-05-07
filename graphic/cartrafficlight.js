@@ -1,4 +1,4 @@
-class TrafficLight {
+class CarTrafficLight {
     constructor(x, y, diameter, orientation, margin) {
         this.x = x;
         this.y = y;
@@ -11,9 +11,6 @@ class TrafficLight {
     }
 
     draw() {
-
-
-
         noStroke();
         if (this.orientation === "left") {
             fill(255, 0, 0, this.red ? 255 : 50);
