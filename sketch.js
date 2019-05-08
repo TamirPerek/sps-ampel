@@ -1,9 +1,10 @@
 const streetWidth = 150;
 const margin = 50;
 
+// Trafficlights
 var carTrafficLight = new Array();
-
-var pedestrianTrafficLight = new Array();;
+var pedestrianTrafficLight = new Array();
+var constructionTrafficLight = new Array();
 
 var street;
 
@@ -49,7 +50,7 @@ function draw() {
 
   if (myValues !== null) {
     for (let i = 1; i <= 4; i++) {
-      carTrafficLight[i-1].update(myValues['Lampe H' + i + '.1'], myValues['Lampe H' + i + '.2'], myValues['Lampe H' + i + '.3']);
+      carTrafficLight[i - 1].update(myValues['Lampe H' + i + '.1'], myValues['Lampe H' + i + '.2'], myValues['Lampe H' + i + '.3']);
     }
   }
 }

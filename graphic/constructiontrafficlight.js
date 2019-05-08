@@ -1,4 +1,4 @@
-class CarTrafficLight {
+class ConstructionTrafficLight {
     constructor(x, y, diameter, orientation, margin) {
         this.x = x;
         this.y = y;
@@ -48,4 +48,6 @@ class CarTrafficLight {
         this.yellow = yellow;
         this.green = green;
     }
+
+
 }
