@@ -8,9 +8,9 @@ var street;
 
 var myValues = null;
 
-// require('electron').ipcRenderer.on('update-value', function (event, values) {
-//   myValues = values;
-// })
+require('electron').ipcRenderer.on('update-value', function (event, values) {
+  myValues = values;
+})
 
 function setup() {
 
@@ -44,7 +44,7 @@ function setup() {
 
 function draw() {
 
-  // require('electron').ipcRenderer.send('need-update');
+  require('electron').ipcRenderer.send('need-update');
 
   background(51);
 
