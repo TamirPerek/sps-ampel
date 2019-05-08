@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "dependencies": {
-    "nodes7": "^0.3.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "electron": "^5.0.1"
+    "electron": "^5.0.1",
+    "nodes7": "^0.3.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
