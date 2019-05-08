@@ -13,29 +13,44 @@ class PedestrianTrafficLight {
         noStroke();
         if (this.orientation === "left-up") {
             fill(255, 0, 0, this.red ? 255 : 50);
-            circle(this.x - this.margin * 0.5, this.y + this.margin * 1.25, this.diameter);
+            circle(this.x - this.margin * 2, this.y + this.margin * 1.25, this.diameter);
             fill(0, 255, 0, this.green ? 255 : 50);
-            circle(this.x - this.margin * 0.5, this.y + this.margin * 1.75, this.diameter);
+            circle(this.x - this.margin * 2, this.y + this.margin * 2, this.diameter);
         } else if (this.orientation === "left-right") {
             fill(255, 0, 0, this.red ? 255 : 50);
             circle(this.x - this.margin * 0.5, this.y + this.margin * 3, this.diameter);
             fill(0, 255, 0, this.green ? 255 : 50);
-            circle(this.x - this.margin * 1, this.y + this.margin * 3, this.diameter);
-        } else if (this.orientation === "right") {
+            circle(this.x - this.margin * 1.25, this.y + this.margin * 3, this.diameter);
+        } else if (this.orientation === "right-down") {
             fill(255, 0, 0, this.red ? 255 : 50);
-            circle(this.x + (this.margin * 2), this.y - this.margin, this.diameter);
+            circle(this.x + this.margin * 2.75, this.y - this.margin * 0.5, this.diameter);
             fill(0, 255, 0, this.green ? 255 : 50);
-            circle(this.x + (this.margin * 4), this.y - this.margin, this.diameter);
-        } else if (this.orientation === "up") {
+            circle(this.x + this.margin * 2.75, this.y - this.margin * 1.25, this.diameter);
+        } else if (this.orientation === "right-left") {
             fill(255, 0, 0, this.red ? 255 : 50);
-            circle(this.x - this.margin, this.y - (this.margin * 2), this.diameter);
+            circle(this.x + this.margin * 1.25, this.y - this.margin * 2.5, this.diameter);
             fill(0, 255, 0, this.green ? 255 : 50);
-            circle(this.x - this.margin, this.y - (this.margin * 4), this.diameter);
-        } else if (this.orientation === "down") {
+            circle(this.x + this.margin * 2, this.y - this.margin * 2.5, this.diameter);
+        } else if (this.orientation === "up-down") {
             fill(255, 0, 0, this.red ? 255 : 50);
-            circle(this.x + this.margin, this.y + (this.margin * 2), this.diameter);
+            circle(this.x - this.margin * 2.75, this.y - (this.margin * 0.5), this.diameter);
             fill(0, 255, 0, this.green ? 255 : 50);
-            circle(this.x + this.margin, this.y + (this.margin * 4), this.diameter);
+            circle(this.x - this.margin * 2.75, this.y - (this.margin * 1.25), this.diameter);
+        } else if (this.orientation === "up-right") {
+            fill(255, 0, 0, this.red ? 255 : 50);
+            circle(this.x - this.margin * 0.5, this.y - (this.margin * 2.5), this.diameter);
+            fill(0, 255, 0, this.green ? 255 : 50);
+            circle(this.x - this.margin * 1.25, this.y - (this.margin * 2.5), this.diameter);
+        } else if (this.orientation === "down-up") {
+            fill(255, 0, 0, this.red ? 255 : 50);
+            circle(this.x + this.margin * 2.75, this.y + this.margin * 1.25, this.diameter);
+            fill(0, 255, 0, this.green ? 255 : 50);
+            circle(this.x + this.margin * 2.75, this.y + this.margin * 2, this.diameter);
+        } else if (this.orientation === "down-left") {
+            fill(255, 0, 0, this.red ? 255 : 50);
+            circle(this.x + this.margin * 1.25, this.y + this.margin * 3, this.diameter);
+            fill(0, 255, 0, this.green ? 255 : 50);
+            circle(this.x + this.margin * 2, this.y + this.margin * 3, this.diameter);
         }
     }
 
@@ -43,6 +58,4 @@ class PedestrianTrafficLight {
         this.red = red;
         this.green = green;
     }
-
-
 }
