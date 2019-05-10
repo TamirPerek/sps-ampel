@@ -79,10 +79,11 @@ function update() {
     }
 
     // Update Pedestrian Trafficlights
-    for (let i = 1; i <= 8; i++) {
-      pedestrianTrafficLight[i - 1].update(myValues['Lampe H' + i + '.7'], myValues['Lampe H' + i + '.8']);
-      pedestrianTrafficLight[i].update(myValues['Lampe H' + i + '.7'], myValues['Lampe H' + i + '.8']);
-      i++;
+    var j = 1;
+    for (let i = 1; i <= 8; i += 2) {
+      pedestrianTrafficLight[i - 1].update(myValues['Lampe H' + j + '.7'], myValues['Lampe H' + j + '.8']);
+      pedestrianTrafficLight[i].update(myValues['Lampe H' + j + '.7'], myValues['Lampe H' + j + '.8']);
+      j++;
     }
 
     // Update Construction TrafficLights
