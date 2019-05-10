@@ -1,0 +1,28 @@
+body {
+    background-color: #333333;
+}
+
+Button {
+    background-color: #0d0d0d;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid #2d2d2d;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 8px 8px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+Button:hover {
+    background-color: #5d5d5d;
+}
+
+Button:active {
+    position: relative;
+    top: 1px;
+}
