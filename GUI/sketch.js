@@ -4,13 +4,14 @@ var carTrafficLight = new Array();
 var pedestrianTrafficLight = new Array();
 var constructionTrafficLight = new Array();
 
+// Buttons
+var pedestrianButton = new Array();
+
+// Streetlines
 var street;
 
+// Object
 var myValues = null;
-
-require('electron').ipcRenderer.on('update-value', function (event, values) {
-  myValues = values;
-})
 
 function setup() {
 
@@ -40,10 +41,24 @@ function setup() {
   constructionTrafficLight.push(new ConstructionTrafficLight(width / 2 - streetWidth, height / 2 + streetWidth, ((width + height) / 2) / 50, "left", margin / 2));
 
   street = new Street(width, height, streetWidth);
+
+  pedestrianButton.push(new PedestrianButton(width / 2 - streetWidth, height / 2 - streetWidth, margin, "up-down", "go"));
+  pedestrianButton.push(new PedestrianButton(width / 2 - streetWidth, height / 2 - streetWidth, margin, "up-right", "go"));
+  pedestrianButton.push(new PedestrianButton(width / 2 + streetWidth, height / 2 - streetWidth, margin, "right-left", "go"));
+  pedestrianButton.push(new PedestrianButton(width / 2 + streetWidth, height / 2 - streetWidth, margin, "right-down", "go"));
+  pedestrianButton.push(new PedestrianButton(width / 2 + streetWidth, height / 2 + streetWidth, margin, "down-up", "go"));
+  pedestrianButton.push(new PedestrianButton(width / 2 + streetWidth, height / 2 + streetWidth, margin, "down-left", "go"));
+  pedestrianButton.push(new PedestrianButton(width / 2 - streetWidth, height / 2 + streetWidth, margin, "left-right", "go"));
+  pedestrianButton.push(new PedestrianButton(width / 2 - streetWidth, height / 2 + streetWidth, margin, "left-up", "go"));
+
+  for (let button of pedestrianButton) {
+    button.create();
+  }
 }
 
 function draw() {
 
+  // Event to Node
   require('electron').ipcRenderer.send('need-update');
 
   background(51);
@@ -91,3 +106,10 @@ function update() {
     }
   }
 }
+
+function greet() {
+  console.log("Pressed");
+}
+
+// Events from Node
+require('electron').ipcRenderer.on('update-value', (event, values) => { myValues = values; })
