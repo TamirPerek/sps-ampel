@@ -1,0 +1,64 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Tagtable name='ControllerTagsFolder'>
+  <!-- exported by 'Totally Integrated Automation Portal' version 1501.0.2801.1   © 2004-2016 Siemens AG - all rights reserved -->
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.0'>Lampe H1.1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.1'>Lampe H1.2</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.2'>Lampe H1.3</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.3'>Lampe H1.4</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.4'>Lampe H1.5</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.5'>Lampe H1.6</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.6'>Lampe H1.7</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.0'>Lampe H2.1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.1'>Lampe H2.2</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.2'>Lampe H2.3</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.3'>Lampe H2.4</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.4'>Lampe H2.5</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.5'>Lampe H2.6</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.6'>Lampe H2.7</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q1.7'>Lampe H2.8</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q0.7'>Lampe H1.8</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.0'>Lampe H3.1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.1'>Lampe H3.2</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.2'>Lampe H3.3</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.3'>Lampe H3.4</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.4'>Lampe H3.5</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.5'>Lampe H3.6</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.6'>Lampe H3.7</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q2.7'>Lampe H3.8</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.0'>Lampe H4.1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.1'>Lampe H4.2</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.2'>Lampe H4.3</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.3'>Lampe H4.4</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.4'>Lampe H4.5</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.5'>Lampe H4.6</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.6'>Lampe H4.7</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%Q3.7'>Lampe H4.8</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M100.7'>Takt_2s</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%I136.4'>Tag/Nacht-Schalter</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%I136.0'>Taster1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%I136.1'>Taster2</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%I136.2'>Taster3</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%I136.3'>Taster4</Tag>
+  <Tag type='Int' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%MW20'>Phasenzahl</Tag>
+  <Tag type='DWord' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%QD0'>Ausgangsdoppelwort</Tag>
+  <Tag type='DWord' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%MD4'>Merkerdoppelwort</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M4.0'>Fußgänger_A1_1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M4.1'>Fußgänger_A1_2</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M4.2'>Fußgänger_A2_1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M4.3'>Fußgänger_A2_2</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.0'>Baustelle1_3</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.1'>Baustelle2_4</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M100.5'>Takt_1s</Tag>
+  <Tag type='Int' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%MW26'>Ablauf_Baustelle</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.2'>Lampentestschalter</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.3'>Tastertest</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.4'>Wartungsmodus</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.5'>Tag/Nacht/HMI</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.6'>MerkerBaustelle</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M8.7'>Taster1_HMI</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M9.0'>Taster2_HMI</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M9.1'>Taster3_HMI</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%M9.2'>Taster4_HMI</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%I4.0'>Tag_1</Tag>
+  <Tag type='Bool' hmiVisible='True' hmiWriteable='True' hmiAccessible='True' remark='' addr='%I4.1'>Tag_2</Tag>
+</Tagtable>
