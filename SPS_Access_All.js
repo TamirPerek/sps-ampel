@@ -8,7 +8,7 @@ var currentValues = [];
 const fs = require('fs');
 var content;
 // First I want to read the file
-fs.readFile('C://Users//Oster//Desktop//PLCTags.xml', function read(err, data) {
+fs.readFile('examples/PLCTags.xml', function read(err, data) {
     if (err) {
         throw err;
     }
